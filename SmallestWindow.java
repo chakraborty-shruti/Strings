@@ -53,7 +53,7 @@ class Test{
         if(ans_l == -1){
             ans = "-1";
         }else{
-            ans = s.substring(ans_l, ans_r-ans_l+1);
+            ans = s.substring(ans_l, ans_r - ans_l + 1);
         }
 
         return ans;
